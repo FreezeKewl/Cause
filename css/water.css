@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto')
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400')
+ 
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 "FontAwesome";
+  font-size: inherit;
+}
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0px;
+	color: #000;
+	/*box-sizing: border-box;*/
+}
+
+
+body {
+	width: 1000px;
+	height: auto;
+	background-color: #eaf4fa;
+	color: #67727A;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	/*box-sizing: border-box;*/
+}
+
+h3 {
+	font-weight: 600;
+	color: black;
+}
+
+p {
+	font-size: 160%;
+	line-height: 110%;
+	padding: 3%;
+	text-align: justify;
+	text-decoration: none;
+}
+
+.contact {
+	width: 1000px;
+	height: 600px;
+	margin: 0 20px 20px 20px;
+	box-sizing: border-box;
+}
+
+#contact-wall {
+	width: 900px;
+	height: auto;
+}
+
+header {
+	width: 900px;
+	height: 100px;
+}
+
+div.navbar-header{
+	width: 900px;
+	height: 100px;
+}
+
+.navbar-default {
+	width: 900px;
+	height: 100px;
+	margin: 10px 0 0 100px;
+	padding: 20px;
+}
+
+div#bs-example-navbar-collapse-1.collapse.navbar-collapse {
+	width: 900px;
+	height: 200px;
+}
+
+.container {
+	width: 925px;
+	height: 225px;
+}
+
+#carousel-example-generic {
+	width: 925px;
+	height: 400px;
+}
+
+/*--End of carousel section*/
+
+div.columns {
+	width: 925px;
+	height: 450px;
+}
+
+
+div.row {
+	display: block;
+	width: 219px;
+	height: 420px;
+	margin: 20px 5px 20px 5px;
+	padding: 0 5px 0 5px;
+	float: left;
+	/*text-align: left;*/
+	/*box-sizing: border-box;*/
+}
+
+
+.row p {
+	font-size: 145%;
+	color: #000;
+	padding: 5px;
+}
+
+.col-md-4.cola {
+	width: 218px;
+	height: 400px;
+	margin: 20px 6px 20px 0;
+}
+
+.col-md-4.colb {
+	width: 218px;
+	height: 400px;
+	margin: 20px 6px 20px 0;
+}
+
+.col-md-4.colc {
+	width: 218px;
+	height: 400px;
+	margin: 20px 6px 20px 0;
+}
+
+.col-md-4.cold {
+	width: 218px;
+	height: 400px;
+	margin: 20px 0 20px 0;
+}
+
+
+/*--End Column Section--*/
+
+
+.thumbnail {
+	width: 925px;
+	height: auto;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	} 
+
+div.thumbnail img {
+	width: 925px;
+	height: auto;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+.donate {
+	width: 200px;
+	height: 150px;
+	border: solid;
+	border-width: 1px;
+	border-color: blue;
+	margin: 0 0 0 370px;
+}
+
+.caption {
+	color: blue;
+	margin: 20px 0 0 0 ;
+	text-align: center;
+}
+
+.donate-now {
+	font-size: 175%;
+	font-weight: 700;
+	color: blue;
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+
+.donate-print-buttons p {
+	margin: 20px 0 5px 0;
+	text-align: center;
+}
+
+
+
+.donate-print-buttons p a {
+	text-decoration: none;
+}
+
+.footer-banner {
+	font-size: 150%;
+}
+
+.copyright {
+	width: 925px;
+	height: 100px;
+}
