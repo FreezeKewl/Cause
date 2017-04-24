@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto')
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400')
+ 
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 "FontAwesome";
+  font-size: inherit;
+}
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+* {
+	margin: 0 20px 0 20px;
+	padding: 0;
+	border: 0px;
+	color: #000;
+	/*background: #9ac5df;*/
+	/*box-sizing: border-box;*/
+}
+
+body {
+	width: 600px;
+	height: 1900px;
+	background-color: #6991ac;
+	color: #67727A;
+	font-family: 'Roboto', sans-serif;
+	/*margin: 0 25px 0 25px;*/
+	box-sizing: border-box;
+}
+
+div.row {
+	width: 600px;
+
+}
+
+ul.nav.nav-pills.navbar-right {
+	/*position: absolute;*/
+	width: 280px;
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+nav.navbar.navbar-default {
+	width: 600px;
+	height: 100px;
+	font-size: 150%;
+	margin: 0;
+	padding:  none;
+	background: #9ac5df;
+}
+
+div.navbar-header {
+	width: 250px ;
+}
+
+button.navbar-toggle.collapsed {
+	color: grey;
+	float: right;
+}
+
+div#bs-example-navbar-collapse-1 .collapse.navbar-collapse {
+	width: 600px;
+	height: 100px;
+}
+
+a.navbar-brand img {
+	width: 250px;
+	height: 90px;
+	/*margin: 10px 0 20px 20px;*/
+	padding: 10px;
+}
+
+div.container {
+	width: 600px;
+	height: 460px;
+	padding: 0 15px 0 -15px;
+	background: #d4e6f1;
+}
+
+div#carousel-example-generic.carousel.slide {
+	width: 620px;
+	height: 380px;
+	margin: 30px 0 0 0;
+
+}
+ol.carousel-indicators {
+
+}
+
+div.carousel-inner {
+	width: 380px;
+	height: 390px;
+	margin: 0 0 0 100px;
+
+}
+
+/*---Controls--*/
+a.left.carousel-control {
+	width: 100px;
+	height: 400px;
+	margin: 0 0 0 -35px;
+}
+
+a.right.carousel-control {
+	width: 100px;
+	height: 400px;
+	margin: 0 35px 0 0;
+}
+
+/*---Three Column Section--*/
+div.col-sm-4.cola {
+	width: 600px;
+	height: 300px;
+	margin: 50px 10px 40px 30px;
+}
+div.col-sm-4.cola p {
+	font-family: "Roboto", sans-serif;
+	font-size: 200%;
+}
+
+div.col-sm-4.colb {
+	width: 600px;
+	height: 300px;
+	background: #9ac5df;
+	margin: 50px 10px 25px 20px; 
+}
+div.col-sm-4.colb p {
+	font-size: 200%;
+}
+
+div.col-sm-4.colc {
+	width: 600px;
+	height: 300px;
+	margin: 50px 10px 25px 20px;
+}
+div.col-sm-4.colc p {
+	font-size: 200%;
+}
+
+/*---Matt Damon image--*/
+
+.col-xs-12.cola img {
+	display: block;
+	width: 380px;
+	height: auto;
+	margin: auto;
+}
+
+div.item img {
+	width: 460px;
+	height: 345px;
+}
+
+/*---Water is Life--*/
+div.col-xs-12.colb { 
+	text-align: center;
+	width: 600px;
+	/*border: 0 1px 1px 1px;*/
+	/*border-color: black;*/
+
+}
+
+/*---Donate Now Section--*/
+div.col-xs-12.colc {
+	width: 600px;
+	height: 160px;
+}
+
+p.donate-now {
+	text-align: center;
+	width: 600px;
+	height: 220px;
+	font-size: 200%;
+}
+
+p.donate-buttons {
+	border-style: solid;
+	border-width: 1px;
+	width: 240px;
+	/*height: 45px;*/
+	padding: 10px 0 10px 0;
+	margin: -170px  0  150px 375px;
+	text-align: center;
+}
+/*---Donate--*/
+a.btn-primary {
+	background-color: red;
+	padding: 5px 10px 5px 10px;
+	margin: 5px;
+	
+}
+/*---Print--*/
+a.btn-default {
+	background-color: blue;
+	padding: 5px 10px 5px 10px;
+	margin: 5px;
+	color: white;
+}
+/*---Footer--*/
+
+.col-sx-12.cold {
+	width: 600px;
+	padding:0 10px 0 0;
+}
+
+footer.footer {
+	width: 600px;
+}
+
+p.footer-banner {
+	width: 600px;
+	padding: 10px;
+}
